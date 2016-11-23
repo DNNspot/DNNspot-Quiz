@@ -1,0 +1,7 @@
+﻿CREATE TABLE {databaseOwner}[{objectQualifier}DNNspot_Quiz_QuizLog]
+(
+	ModuleId int,
+	QuizName varchar(500),
+	UserId int null,
+	QuizTakenOn datetime default(getdate())
+)

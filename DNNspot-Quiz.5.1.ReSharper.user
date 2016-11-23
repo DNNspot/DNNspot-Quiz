@@ -1,0 +1,87 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:module.css" caret="1098" fromTop="17" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="3025" fromTop="22" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Service/f:QuizService.cs" caret="2825" fromTop="38" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="3049" fromTop="21" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="3009" fromTop="21" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:module.css" caret="5436" fromTop="5" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:module.css" caret="5676" fromTop="24" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:module.css" caret="1098" fromTop="17" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="5857" fromTop="31" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="3795" fromTop="14" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="_results" priority="0" />
+      <Item value="QuizResult`0" priority="0" />
+      <Item value="results" priority="0" />
+      <Item value="Quiz" priority="0" />
+      <Item value="quizTakenActions" priority="1" />
+      <Item value="HttpCookie`0" priority="0" />
+      <Item value="new" priority="0" />
+      <Item value="HttpCookie" priority="0" />
+      <Item value="if" priority="1" />
+      <Item value="imisId" priority="1" />
+      <Item value="int" priority="1" />
+      <Item value="id" priority="0" />
+      <Item value="Obsolete" priority="1" />
+      <Item value="RegisterJavascriptFileOnceInBody`0" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="DotNetNuke" priority="0" />
+      <Item value="else" priority="0" />
+      <Item value="String`0" priority="0" />
+      <Item value="UserId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DNNspot.Quiz.Model.QuizResult">
+      <Item value="Quiz" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DNNspot.Quiz.Model.Quiz">
+      <Item value="Actions" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="FirstOrDefault`1" priority="1" />
+      <Item value="Count`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DNNspot.Quiz.Model.QuizAction">
+      <Item value="Emails" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="FirstOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DNNspot.Quiz.Model.ActionEmail">
+      <Item value="BodyTemplate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpCookie">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

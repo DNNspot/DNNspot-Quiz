@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dotnetnuke version="3.0" type="Module">
+	<folders>
+		<folder>
+			<name>DNNspot-Quiz</name>
+			<friendlyname>DNNspot Quiz</friendlyname>
+			<foldername>DNNspot-Quiz</foldername>
+			<modulename>DNNspot-Quiz</modulename>
+			<description></description>
+			<version>01.00.00</version>	
+			<resourcefile>Resources.zip</resourcefile>
+			<modules>
+				<module>
+					<friendlyname>DNNspot-Quiz</friendlyname>
+					<controls>
+						<control>
+							<src>Quiz.ascx</src>
+							<type>View</type>
+						</control>
+						<control>
+							<key>Settings</key>
+							<title>Quiz Settings</title>
+							<src>Settings.ascx</src>
+							<type>Edit</type>
+						</control>					
+					</controls>
+				</module>
+			</modules>
+		<files>
+			<file>
+				<name>01.00.00.SqlDataProvider</name>
+			</file>
+			<file>
+				<name>Uninstall.SqlDataProvider</name>
+			</file>
+			<file>			
+				<path>bin</path>
+				<name>DNNspot.Quiz.dll</name>
+			</file>
+			<file>
+				<path>bin</path>
+				<name>WA.Shared.dll</name>
+			</file>					
+		</files>
+		</folder>
+	</folders>
+</dotnetnuke>

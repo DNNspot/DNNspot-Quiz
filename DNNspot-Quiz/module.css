@@ -1,0 +1,166 @@
+﻿.dnnspotQuiz {}
+
+.dnnspotQuiz h2.quizName { color: Black; font-size: 16px; font-weight: bold; }
+
+.dnnspotQuiz label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic;
+}
+.dnnspotQuiz input.error { border: 1px dotted red; }
+
+.dnnspotQuiz ul.captureFields 
+{
+    list-style-type: none !important;
+    margin: 10px 0px 40px 0px !important;
+    padding-left: 12px !important;
+}
+    .dnnspotQuiz ul.captureFields li 
+    {
+        list-style-type: none !important;
+        margin: 1em 0 !important;
+    }
+    .dnnspotQuiz ul.captureFields li > label { display: block; }
+
+.dnnspotQuiz ol.questions { list-style-position: inside !important; padding-left: 12px !important; }
+    .dnnspotQuiz ol.questions > li { margin: 1em 0 !important; list-style: decimal inside none !important; }
+    .dnnspotQuiz ol.questions li ol li { list-style: lower-alpha inside none !important; }
+	
+    .dnnspotQuiz .questions { padding-left: 12px; }
+        .dnnspotQuiz .questions .question { clear: both; overflow: auto; margin: 20px 0px 60px 0px; }
+            .dnnspotQuiz .questions .question ol { margin-top: 4px;  overflow:auto;}
+                .dnnspotQuiz .questions .question ol li { list-style: lower-alpha inside none !important; }
+                    .dnnspotQuiz .questions .question ol li input { float:left; }
+            .dnnspotQuiz .questions .question .left { float: left; }
+            .dnnspotQuiz .questions .question .right { float: left; margin-left: 36px; }
+        .dnnspotQuiz .questions .incorrectMessage { background-color: #FEFACC; padding: 6px; float: left; overflow: auto; border: 1px solid #B4B9ED; }
+
+.dnnspotQuiz .questions p { display:inline-block; margin-top:0px; width:95%; vertical-align:top;  zoom:1; *display:inline; }
+.dnnspotQuiz .questions p.answer { display: inline-block; vertical-align:top; margin:0px 0 0 8px; width:95%; zoom:1; *display:inline; }
+.dnnspotQuiz .questions .question p.answer {margin: 0px 0px 8px 12px !important; width: 90%; display:inline-block; vertical-align:top; }
+.dnnspotQuiz .answer { float:left; }
+.dnnspotQuiz .dnnRadiobutton { float:left; } 
+.dnnspotQuiz .liLabel { width:100%; }
+.dnnspotQuiz li ol li label { margin:5px 0px;}
+.dnnspotQuiz ol.questions li ol li { list-style:none!important; }
+.dnnspotQuiz ul.captureFields li { background:none!important; margin:0px 0px 0px 0px!important; }
+ .dnnspotQuiz .failedHeader 
+{
+    background-color: #8B0000;
+    color: White;    
+    padding: 1em;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana;
+}        
+.dnnspotQuiz .passedHeader 
+{
+    background-color: #006400;
+    color: White;    
+    padding: 1em;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana;
+}        
+
+.passCertificate
+{
+    text-align: center;
+    width: 550px;
+    color: Black;
+    /*border: 1px solid black;*/
+    padding: 16px 0 24px 0;
+}
+.passCertificate h2, .passCertificate h3
+{
+    color: Black;
+    font-size: 16px;
+}
+.passCertificate h2 { font-size: 18px; }
+
+/*---------------------------------------
+    Form Layouts (using lists)
+---------------------------------------*/    
+  ol.form { margin: 0; padding: 0; overflow: auto; }
+         ol.form > li
+        {
+            list-style-type: none;
+            display: block;
+            margin: 0;
+            padding: 0 0 1em 0;
+        }
+         fieldset ol.form > li:first-child { padding-top: 0; }            
+         ol.form > li > label { display: block; margin-bottom: 2px; }
+         ol.form > li > input,
+         ol.form > li > textarea,
+         ol.form > li > select
+        {
+            display: inline;            
+        }
+        
+     ol.form.labelsLeft { }    
+         ol.form.labelsLeft > li
+        {
+            clear: left;
+            float: left;
+            width: 100%;
+        }
+             ol.form.labelsLeft > li > label
+            {
+                display: block;
+                float: left;
+                width: 11em;
+                text-align: right;
+                margin: 0 1em 0 0;            
+            }
+        
+             ol.form.labelsLeft > li > input,
+             ol.form.labelsLeft > li > textarea,
+             ol.form.labelsLeft > li > select,
+             ol.form.labelsLeft > li > span
+            {
+                display: block;
+                float: left;                
+            }
+            ol.form.labelsLeft > li > span input,
+            ol.form.labelsLeft > li > span select,
+            ol.form.labelsLeft > li > span textarea
+            {
+                margin: 0;
+            }
+            ol.form.labelsLeft > li > span label { font-weight: normal; display: inline; float: none; }
+             ol.form.labelsLeft > li > input[type="submit"],
+             ol.form.labelsLeft > li > input[type="button"],
+             ol.form.labelsLeft > li > button
+            {
+                /* align buttons with input elements */
+                margin-left: 11em;
+            }    
+    ol.form.labelsInline {}
+        ol.form.labelsInline > li > label { display: inline; float: none; width: auto; text-align: left; margin-right: 0.5em; }
+    
+/*---- Form Fields ----*/
+input[type=text] { width:250px; }
+textarea { width: 250px; height: 60px; }    
+.form label { font-weight: bold; }
+
+.dnnspotQuiz .questions li
+{
+	clear:both;
+}
+
+.dnnspotQuiz .questions li input
+{
+	float:left;
+}
+
+.dnnspotQuiz .questions li ol li
+{
+	list-style:lower-alpha inside none !important;
+}
+
+.dnnspotQuiz .answer
+{
+	float:right;
+}
+      
