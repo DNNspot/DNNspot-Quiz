@@ -33,7 +33,7 @@
                     .dnnspotQuiz .questions .question ol li input { float:left; }
             .dnnspotQuiz .questions .question .left { float: left; }
             .dnnspotQuiz .questions .question .right { float: left; margin-left: 36px; }
-        .dnnspotQuiz .questions .incorrectMessage { background-color: #FEFACC; padding: 6px; float: left; overflow: auto; border: 1px solid #B4B9ED; }
+        .dnnspotQuiz .questions .incorrectMessage { background-color: #FEFACC; padding: 6px; overflow: auto; border: 1px solid #B4B9ED; }
 
 .dnnspotQuiz .questions p { display:inline-block; margin-top:0px; width:95%; vertical-align:top;  zoom:1; *display:inline; }
 .dnnspotQuiz .questions p.answer { display: inline-block; vertical-align:top; margin:0px 0 0 8px; width:95%; zoom:1; *display:inline; }
@@ -158,9 +158,17 @@ textarea { width: 250px; height: 60px; }
 {
 	list-style:lower-alpha inside none !important;
 }
-
-.dnnspotQuiz .answer
-{
-	float:right;
-}
       
+.dnnspotQuiz .questions li.error
+{
+    color:red;
+}
+.dnnspotQuiz .questions li.error li, .dnnspotQuiz .error label
+{
+    color: #333;
+}
+
+.dnnspotQuiz li.error ol 
+{
+    margin-bottom:0px;
+}

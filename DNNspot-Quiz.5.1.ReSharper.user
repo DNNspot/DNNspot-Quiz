@@ -9,8 +9,11 @@
   <RecentFiles>
     <RecentFiles>
       <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:module.css" caret="1098" fromTop="17" />
-      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="3025" fromTop="22" />
-      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Service/f:QuizService.cs" caret="2825" fromTop="38" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Service/f:QuizService.cs" caret="3195" fromTop="23" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:js/f:jquery.browser.min.js" caret="7346" fromTop="22" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="3648" fromTop="0" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx" caret="389" fromTop="7" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:ModuleBase.cs" caret="1735" fromTop="21" />
     </RecentFiles>
     <RecentEdits>
       <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="3049" fromTop="21" />
@@ -20,6 +23,9 @@
       <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:module.css" caret="1098" fromTop="17" />
       <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="5857" fromTop="31" />
       <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="3795" fromTop="14" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx" caret="3764" fromTop="31" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:js/f:jquery.browser.min.js" caret="7346" fromTop="22" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:ModuleBase.cs" caret="1735" fromTop="21" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

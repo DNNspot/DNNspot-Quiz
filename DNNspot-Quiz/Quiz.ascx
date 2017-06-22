@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Quiz.ascx.cs" Inherits="DNNspot.Quiz.Quiz" %>
 
-<div class="dnnspotQuiz">
+<lo class="dnnspotQuiz">
 <script>
     function print() {
         jQuery('div.passCertificate').printElement({ pageTitle: 'Continuing Education Certificate', printMode: 'popup', leaveOpen: true, overrideCSS: ['/DesktopModules/DNNspot-Quiz/print.css'] });
@@ -61,18 +61,15 @@
     <% } else { %>
     <h4 class="failedHeader">Sorry, there were too many incorrect answers.</h4>   
 
-    <div class="questions">
+    <ol class="questions">
         <% int qnum = 0; foreach(var q in _results.Quiz.Questions) { %>
-        <div class="question">            
-            <div class="left">
-                <span style="<%= q.IsCorrect ? "" : "color: Red;" %>"><%= (qnum + 1) %>.&nbsp;&nbsp;<%= q.Text %>  <span style="font-weight: bold;"><%= q.IsCorrect ? "Correct" : "Incorrect" %></span></span>
+        <li class="<%= q.IsCorrect ? "" : "error" %>">            
+                <p style="<%= q.IsCorrect ? "" : "color: Red;" %>"><span><span style="font-weight: bold;"><%= q.IsCorrect ? "Correct: " : "Incorrect: " %></span><%= q.Text %></span></p>
                 <ol>
                     <% int cnum = 0; foreach(var c in q.Choices) { %>
-                        <li><label><input type="radio" name="question<%= qnum %>" value="<%= c.Text %>" <%= (q.IsCorrect && c.IsSelected) ? "checked='checked'" : "" %> /><span class="answer" style="width:90%;"><%= c.Text %></span></label></li>
+                        <li><label class="liLabel"><input type="radio" name="question<%= qnum %>" value="<%= c.Text %>" <%= (q.IsCorrect && c.IsSelected) ? "checked='checked'" : "" %> /><span class="answer" style="width:90%;"><%= c.Text %></span></label></li>
                     <% cnum++; } %>
                 </ol>
-            </div>
-            <div class="right">
             <% if(!q.IsCorrect && _quiz.DisplayHints) { 
                 foreach(var m in q.IncorrectMessages) { %>
                    <div class="incorrectMessage">
@@ -80,10 +77,9 @@
                    </div> 
                 <% }
             } %>            
-            </div>
-        </div>
+        </li>
         <% qnum++; } %>
-    </div>
+    </ol>
     
     <asp:Button runat="server" ID="btnSubmitAgain" Text="Submit" OnClick="btnSubmit_Click" />
     <% } %>
@@ -95,5 +91,3 @@
         $('form').validate();
     });
 </script>
-
-</div>
