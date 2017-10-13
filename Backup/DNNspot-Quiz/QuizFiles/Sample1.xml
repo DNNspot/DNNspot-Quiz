@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<quiz name="Sample 1 Quiz" passPercentage="100" displayScore="true" displayHints="true" limitPerUser="5">
+  <capturefields>
+    <field type="text">
+      <name>name</name>
+      <placeholder>Your Name</placeholder>
+      <required>true</required>
+    </field>
+    <field type="text">
+      <name>email</name>
+      <placeholder>Your Email</placeholder>
+      <required>true</required>
+    </field>
+    <field type="text">
+      <name>address</name>
+      <placeholder>Your Address</placeholder>
+      <required>true</required>
+    </field>
+  </capturefields>
+	<questions>
+		<question>
+			<text>Favorite color?</text>
+			<choices>
+				<choice correct="true">Red</choice>
+				<choice>Green</choice>
+				<choice>Blue</choice>
+			</choices>
+      <messages>
+        <message type="incorrect">
+          <![CDATA[<b>Here's the deal</b><div>Some stuff goes here 1</div>]]>          
+        </message>
+      </messages>
+		</question>
+		<question>
+			<text>Favorite ice cream?</text>
+			<choices>
+				<choice>Vanilla</choice>
+				<choice>Chocolate</choice>
+				<choice correct="true">Cookie Dough</choice>
+			</choices>
+      <messages>
+        <message type="incorrect">
+          <![CDATA[<b>Here's the deal</b><div>Some stuff goes here 2</div>]]>
+        </message>
+      </messages>
+    </question>
+		<question>
+			<text>Favorite team?</text>
+			<choices>
+				<choice>Michigan</choice>				
+				<choice correct="true">Michigan State</choice>
+			</choices>
+      <messages>
+        <message type="incorrect">
+          <![CDATA[<b>Here's the deal</b><div>Some stuff goes here 3</div>]]>
+        </message>
+      </messages>      
+		</question>		
+	</questions>	
+	<actions>
+    <action condition="QuizTaken">
+      <emails>
+        <email>
+          <to>eteam@webascender.com</to>          
+          <bcc>kevin@webascender.com</bcc>
+          <subject><![CDATA[Quiz: [QUIZ_NAME] | [CAPTURE_NAME] - [QUIZ_PASSFAIL_TEXT]]]></subject>
+          <body>
+            <![CDATA[
+            <p>
+            Quiz: <strong>[QUIZ_NAME]</strong>
+            </p>
+            <p>
+            Name: <strong>[CAPTURE_NAME]</strong>
+            <br />
+            Email: <strong>[CAPTURE_EMAIL]</strong>
+            <br />
+            Address: <strong>[CAPTURE_ADDRESS]</strong>
+            </p>
+            <h3>Score: [QUIZ_SCORE] ([QUIZ_PASSFAIL_TEXT])</h3> <h3>Results:</h3> [QUIZ_RESULTS_HTML]
+            ]]>
+          </body>        
+        </email>
+      </emails>
+    </action>
+    <action condition="QuizPassed">
+			<message>
+        <![CDATA[
+        <p>You may now print a certificate to acknowledge that you have passed this quiz.</p>
+        <p>Michigan Dental Association has been notified that you have completed this quiz.</p>
+        <div class="passCertificate">
+          <h2>CERTIFICATE OF COMPLETION</h2>
+          <h3>Quiz: [QUIZ_NAME]</h3>
+          <h3>[CAPTURE_NAME]</h3>
+          <h3>[CAPTURE_ADDRESS]</h3>
+          {MDA LOGO}
+        </div>
+        ]]>
+			</message>
+			<roles>
+				<role>Quiz Takers</role>
+				<role expiresAfterDays="30">Authorized Downloaders</role>
+			</roles>
+		</action>
+	</actions>
+</quiz>

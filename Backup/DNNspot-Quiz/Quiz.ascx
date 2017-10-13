@@ -37,7 +37,7 @@
             <p><%= q.Text %></p>
             <ol>
                 <% int cnum = 0; foreach(var c in q.Choices) { %>
-                    <li><label class="liLabel"><input type="radio" name="question<%= qnum %>" value="<%= c.Text %>"  <%= q.IsRequired ? "required" : "" %>/><span class="answer" style="width:90%;"><%= c.Text %></span></label></li>
+                    <li><label class="liLabel"><input type="radio" name="question<%= qnum %>" value="<%= c.Text %>" /><span class="answer" style="width:90%;" <%= q.IsRequired ? "required" : "" %>><%= c.Text %></span></label></li>
                 <% cnum++; } %>
             </ol>
         </li>
@@ -61,21 +61,13 @@
     <% } else { %>
     <h4 class="failedHeader">Sorry, there were too many incorrect answers.</h4>   
 
-    <ul class="captureFields">
-        <% foreach(var f in _quiz.CaptureFields) { %>
-            <li>
-                <label><%= f.Name.ToTitleCase() %></label>
-                <input type="text" name="<%= CaptureFieldPrefix + f.Name %>" placeholder="<%= f.Placeholder %>" class="<%= f.IsRequired ? "required" : string.Empty %>" width="200px" value="<%= HttpContext.Current.Request.Form[CaptureFieldPrefix + f.Name] %>" />
-            </li>
-        <% } %>
-    </ul>
     <ol class="questions">
         <% int qnum = 0; foreach(var q in _results.Quiz.Questions) { %>
         <li class="<%= q.IsCorrect ? "" : "error" %>">            
                 <p style="<%= q.IsCorrect ? "" : "color: Red;" %>"><span><span style="font-weight: bold;"><%= q.IsCorrect ? "Correct: " : "Incorrect: " %></span><%= q.Text %></span></p>
                 <ol>
                     <% int cnum = 0; foreach(var c in q.Choices) { %>
-                        <li><label class="liLabel"><input type="radio" name="question<%= qnum %>" value="<%= c.Text %>" <%= (q.IsCorrect && c.IsSelected) ? "checked='checked'" : "" %>  <%= q.IsRequired ? "required" : "" %> /><span class="answer" style="width:90%;"><%= c.Text %></span></label></li>
+                        <li><label class="liLabel"><input type="radio" name="question<%= qnum %>" value="<%= c.Text %>" <%= (q.IsCorrect && c.IsSelected) ? "checked='checked'" : "" %> /><span class="answer" style="width:90%;"><%= c.Text %></span></label></li>
                     <% cnum++; } %>
                 </ol>
             <% if(!q.IsCorrect && _quiz.DisplayHints) { 

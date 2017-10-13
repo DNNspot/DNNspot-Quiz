@@ -1,7 +1,8 @@
+C:\Code\DNNspot-Quiz\trunk\DNNspot-Quiz\obj\Debug\DNNspot-Quiz.csprojResolveAssemblyReference.cache
+C:\Code\DNNspot-Quiz\trunk\DNNspot-Quiz\bin\DNNspot.Quiz.dll.config
 C:\Code\DNNspot-Quiz\trunk\DNNspot-Quiz\bin\DNNspot.Quiz.dll
 C:\Code\DNNspot-Quiz\trunk\DNNspot-Quiz\bin\DNNspot.Quiz.pdb
 C:\Code\DNNspot-Quiz\trunk\DNNspot-Quiz\bin\WA.Shared.dll
 C:\Code\DNNspot-Quiz\trunk\DNNspot-Quiz\bin\WA.Shared.xml
 C:\Code\DNNspot-Quiz\trunk\DNNspot-Quiz\obj\Debug\DNNspot.Quiz.dll
 C:\Code\DNNspot-Quiz\trunk\DNNspot-Quiz\obj\Debug\DNNspot.Quiz.pdb
-C:\Code\DNNspot-Quiz\trunk\DNNspot-Quiz\obj\Debug\DNNspot-Quiz.csprojResolveAssemblyReference.cache

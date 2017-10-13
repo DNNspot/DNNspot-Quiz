@@ -8,24 +8,43 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:module.css" caret="1098" fromTop="17" />
-      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Service/f:QuizService.cs" caret="3195" fromTop="23" />
       <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:js/f:jquery.browser.min.js" caret="7346" fromTop="22" />
-      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="3648" fromTop="0" />
-      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx" caret="389" fromTop="7" />
       <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:ModuleBase.cs" caret="1735" fromTop="21" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:module.css" caret="5800" fromTop="52" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Service/f:QuizService.cs" caret="1856" fromTop="32" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Model/f:Question.cs" caret="316" fromTop="11" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Model/f:Quiz.cs" caret="1078" fromTop="20" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="1432" fromTop="30" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx" caret="1757" fromTop="35" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Helpers/f:UrlHelper.cs" caret="105" fromTop="4" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Helpers/f:DnnHelper.cs" caret="174" fromTop="6" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Util/f:Emailer.cs" caret="59" fromTop="2" />
     </RecentFiles>
     <RecentEdits>
       <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="3049" fromTop="21" />
       <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="3009" fromTop="21" />
-      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:module.css" caret="5436" fromTop="5" />
-      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:module.css" caret="5676" fromTop="24" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:module.css" caret="5423" fromTop="5" />
       <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:module.css" caret="1098" fromTop="17" />
       <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="5857" fromTop="31" />
       <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx.cs" caret="3795" fromTop="14" />
-      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx" caret="3764" fromTop="31" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx" caret="3712" fromTop="31" />
       <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:js/f:jquery.browser.min.js" caret="7346" fromTop="22" />
       <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:ModuleBase.cs" caret="1735" fromTop="21" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx" caret="2645" fromTop="34" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx" caret="2633" fromTop="30" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx" caret="3605" fromTop="49" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:module.css" caret="1650" fromTop="23" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx" caret="2654" fromTop="32" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:module.css" caret="5819" fromTop="53" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx" caret="2837" fromTop="33" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx" caret="3885" fromTop="45" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Model/f:Question.cs" caret="302" fromTop="11" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Model/f:Quiz.cs" caret="3539" fromTop="27" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Model/f:Quiz.cs" caret="2528" fromTop="17" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Model/f:Quiz.cs" caret="2975" fromTop="23" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/f:Quiz.ascx" caret="1653" fromTop="39" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Util/f:Emailer.cs" caret="41" fromTop="1" />
+      <File id="8220465A-FD7A-4E75-B2F0-75E3A34B9F40/d:Util/f:Emailer.cs" caret="1091" fromTop="30" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -60,6 +79,9 @@
       <Item value="else" priority="0" />
       <Item value="String`0" priority="0" />
       <Item value="UserId" priority="0" />
+      <Item value="IsRequired" priority="0" />
+      <Item value="null" priority="0" />
+      <Item value="false" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:DNNspot.Quiz.Model.QuizResult">
       <Item value="Quiz" priority="0" />
@@ -88,6 +110,10 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
       <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XElement">
+      <Item value="Element`0" priority="0" />
+      <Item value="Value" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
